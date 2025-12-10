@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body {
+  background: linear-gradient(135deg, #0f111a 60%, #1a0033 100%);
+  color: #00fff7;
+  font-family: 'Orbitron', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ff00ea;
+  text-shadow: 0 0 10px #00fff7, 0 0 20px #ff00ea;
+  text-align: center;
+  margin-top: 30px;
+}
+.neon {
+  color: #00fff7;
+}
+
+h2 {
+  color: #ff00ea;
+  text-shadow: 0 0 8px #00fff7;
+}
+
+p {
+  font-size: 1.1em;
+  color: #e0e0e0;
+}
+
+nav {
+  text-align: center;
+}
+.abas {
+  list-style-type: none;
+  padding: 0;
+}
+.abas li {
+  display: inline-block;
+}
+.abas li a {
+  color: #00fff7;
+  background: #18182a;
+  padding: 10px 24px;
+  border-radius: 20px;
+  margin: 0 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow:0px 0px 10px #ff00ea44;
+  transition: background .2s, color .2s, box-shadow .2s;
+}
+.abas li a:hover {
+  background: linear-gradient(90deg, #ff00ea, #00fff7);
+  color: #18182a;
+}
+
+.card {
+  background: rgba(24,24,42,0.95);
+  border-radius:16px;
+  box-shadow:0px 0px 20px #ff00ea44,0px 0px 40px #00fff744,inset -2px -2px #ff00ea,inset -4px -4px #00fff7;
+  margin:30px auto;
+  padding:30px;
+  max-width:500px;
+}
+
+.capa {
+  width:100%;
+  max-width:320px;
+  border-radius:10px;
+  border:3px solid #ff00ea;
+  box-shadow:0px 0px 20px #ff00ea88,0px 0px 40px #00fff788;
+}
+
+ul {
+  list-style-type:square;
+  color:#ff00ea;
+}
+ol {
+  list-style-type:decimal-leading-zero;
+}
+ul, ol {
+  background:rgba(20,20,40,0.6);
+  padding:12px 24px;
+  border-radius:8px;
+}
+
+a {
+  color:#ff00ea;
+}
+a:hover {
+  color:#00fff7;
+}
+
+.voltar {
+  display:inline-block;
+  margin-top:30px;
+}
+
+.tabela-cyber {
+  width:90%;
+  margin:30px auto;
+  border-collapse:collapse;
+}
+.tabela-cyber th, .tabela-cyber td {
+   border:1.5px solid #00fff7;
+   padding:12px;
+   text-align:center;
+}
+.tabela-cyber th {
+   background-color:#1a0033;
+   color:#ff00ea;
+   font-size:1.1em;
+}
+.tabela-cyber tbody tr:nth-child(even) {
+   background-color:#22223b;
+}
+.tabela-cyber tbody tr:nth-child(odd) {
+   background-color:#2d3142;
+}
+
+footer {
+   margin-top:40px;
+   color:#ff00ea99;
+   font-size:.95em;
+   text-align:center;
+   padding-bottom:20px;
+}
